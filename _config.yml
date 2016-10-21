@@ -11,9 +11,6 @@ description:
 baseurl: ""
 url: "http://susannestraubinger.niels-nuebel.de"
 googleanalyticss:  UA-XXXXX-1
-app_id: 123456789
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Build settings
 markdown: kramdown
