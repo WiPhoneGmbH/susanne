@@ -1,0 +1,8 @@
+.bg {
+  height: 100%;
+
+  &.intro {
+    background: url(../assets/images/bg/start.jpg) no-repeat top right;
+    background-size: cover;
+  }
+}
