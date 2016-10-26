@@ -2,13 +2,11 @@
 <html class="no-js" lang="">
 {% include head.html %}
     <body>
-        {% include navicon.html %}
         <div class="bg {% if page.body_class %}{{ page.body_class }}{% endif %}">
             {% include header.html %}
             <div id="page">
-            <div class="container">
-                {% include logo2.html %}
-                {{ content }}
+                <div class="container">
+                    {{ content }}
                 </div><!-- .container -->
             </div><!-- #page -->
             {% include footer.html %}

@@ -1,7 +1,25 @@
 .bg {
-  height: 100%;
+  min-height: 100%;
+  @media (max-width: 699px){
+    background-image: none !important;
+  }
 
   &.intro {
+    background: url(../assets/images/bg/start.jpg) no-repeat top right;
+    background-size: cover;
+  }
+
+  &.team {
+    background: url(../assets/images/bg/start.jpg) no-repeat top right;
+    background-size: cover;
+  }
+
+  &.was {
+    background: url(../assets/images/bg/start.jpg) no-repeat top right;
+    background-size: cover;
+  }
+
+  &.behandlungen {
     background: url(../assets/images/bg/start.jpg) no-repeat top right;
     background-size: cover;
   }

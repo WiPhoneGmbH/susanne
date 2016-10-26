@@ -8,6 +8,7 @@ body {
   font-family: 'Dosis', sans-serif;
   color: $body-color;
   font-size: 20px;
+  position: relative;
 }
 
 strong, em {
@@ -26,4 +27,27 @@ a {
 img {
   max-width: 100%;
   display: inline-block;
+}
+#page {
+  min-height: 100%;
+  position: relative;
+  padding-top: 20px;
+  @media (min-width: 700px) {
+    padding-top: 130px;
+  }
+}
+.logo {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+
+  @media (max-width: 820px) {
+    display: none;
+
+  }
+}
+
+#map {
+  height: 350px;
+  width: 100%;
 }
