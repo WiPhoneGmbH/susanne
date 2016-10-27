@@ -4,7 +4,6 @@ body {
 }
 
 body {
-  padding-top: 60px;
   font-family: 'Dosis', sans-serif;
   color: $body-color;
   font-size: 20px;
@@ -28,10 +27,14 @@ img {
   max-width: 100%;
   display: inline-block;
 }
-#page {
+#wrap {
   min-height: 100%;
+}
+#page {
+  overflow: auto;
   position: relative;
   padding-top: 20px;
+  z-index: 99;
   @media (min-width: 700px) {
     padding-top: 130px;
   }
