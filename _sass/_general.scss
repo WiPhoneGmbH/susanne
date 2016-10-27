@@ -29,16 +29,23 @@ img {
 }
 #wrap {
   min-height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 #page {
+  height: 100%;
   overflow: auto;
   position: relative;
-  padding-top: 20px;
   z-index: 99;
-  @media (min-width: 700px) {
-    padding-top: 130px;
+  .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    @media (min-width: 700px) {
+      padding-top: 130px;
+      padding-bottom: 60px;
+      padding-bottom: 60px;
+    }
   }
-  padding-bottom: 60px;
 }
 .logo {
   position: absolute;
@@ -54,4 +61,20 @@ img {
 #map {
   height: 350px;
   width: 100%;
+}
+
+h1.headline {
+  background: $brand-color;
+  display: block;
+  margin: 0;
+  padding: 10px 0 14px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 400;
+  @media (min-width: 700px) {
+    display: none;
+
+  }
 }
