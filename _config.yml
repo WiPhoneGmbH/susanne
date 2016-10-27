@@ -44,5 +44,8 @@ nav:
 
 footernav:
 
-  - name: Impressum
-    link: "/impressum.html"
+- name: Impressum
+  link: "/impressum.html"
+
+- name: Datenschutz
+  link: "/datenschutz.html"
