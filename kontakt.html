@@ -3,7 +3,7 @@ layout: default
 title: Buchholz Fußpflege - Susanne Straubinger
 excerpt: Beschreibung
 body_class: kontakt
-headline: So finden Sie uns
+headline: Wo finden Sie uns
 ---
 <div class="text">
     <div id="map"></div>
@@ -26,6 +26,5 @@ headline: So finden Sie uns
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkZC8z1pMaOM3i8334Yir-PvBFYFx98Xw&callback=initMap" type="text/javascript"></script>
-    <p>Buchholz Fußpflege · Kirchenstraße 7 / 3. OG / Moderner Fahrstuhl vorhanden<br>21244 Buchholz i.d.N. · Tel.: : <a href="tel:+4941819994124">04181-999 4124</a><br>
-        {% assign links = site.footernav | where: "name", "Datenschutz" %}{% for link in links %}<a id="logo" href="{{ link.link }}">Datenschutz</a>{% endfor %}/{% assign links = site.footernav | where: "name", "Impressum" %}{% for link in links %}<a id="logo" href="{{ link.link }}">Impressum</a>{% endfor %}</p>
+    <p>Buchholz Fußpflege · Kirchenstraße 7 / 3. OG / Moderner Fahrstuhl vorhanden<br>21244 Buchholz i.d.N. · Tel.: : <a href="tel:+4941819994124" style="white-space:nowrap;">04181-999 4124</a></p>
 </div>

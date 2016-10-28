@@ -1,7 +1,7 @@
 body {
   &.intro {
     .text {
-      margin-top: 80px;
+      margin-top: 40px;
       max-width: 587px;
     }
   }
@@ -52,14 +52,10 @@ body {
       strong {
         font-weight: 400 !important;
       }
-      ul li {
-        margin-bottom: 30px;
-        padding-left: 20px;
-
-        &:before {
-          padding-right: 26px;
-          margin-left: -30px;
-          width: 4px;
+      ul {
+        margin-top: 0;
+        li {
+          margin-bottom: 30px;
         }
       }
     }
@@ -78,9 +74,15 @@ body {
     margin: 20px 0;
     list-style: none;
 
-    li:before {
-      content: "\2022";
-      padding-right: 30px;
+    li {
+      padding-left: 0px;
+
+      &:before {
+        content: "\2022";
+        padding-right: 20px;
+        margin-left: -24px;
+        width: 4px;
+      }
     }
   }
 }
