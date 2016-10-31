@@ -16,7 +16,7 @@ header {
 nav {
   position: relative;
   z-index: 9999;
-  @media (max-width: 699px) {
+  @media (max-width: 740px) {
     height: 0;
     overflow: hidden;
     transition: height 0.8s;
@@ -24,7 +24,7 @@ nav {
 
 
   &.active {
-    height: 245px;
+    height: 294px;
     transition: height 0.8s;
   }
   ul {
@@ -57,7 +57,7 @@ nav {
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 741px) {
   nav {
     max-width: 1000px;
     margin: 0 auto;
