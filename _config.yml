@@ -42,6 +42,9 @@ nav:
 - name: Wo finden Sie uns
   link: "/kontakt.html"
 
+- name: AGB
+  link: "/agb.html"
+
 footernav:
 
 - name: Impressum
