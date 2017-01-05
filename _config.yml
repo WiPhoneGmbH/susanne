@@ -7,6 +7,8 @@
 
 # Site settings
 title: Buchholz Fußpflege - Susanne Straubinger
+redirect_to:
+  - http://www.buchholz-fusspflege.de/
 description:
 baseurl: ""
 url: "http://susannestraubinger.niels-nuebel.de"
@@ -14,6 +16,13 @@ googleanalyticss:  UA-86581203-1
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+  
 
 
 #Exclude Files or Folder
